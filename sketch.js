@@ -34,10 +34,10 @@ function setup() {
 
 
 function draw() {
-  background(0);
+  background(255);
   
   fill("green");
-  ellipse(target.x, target.y, 15, 15);
+  ellipse(target.x, target.y, 25, 25);
     
   if (count == lifespan) {
     
