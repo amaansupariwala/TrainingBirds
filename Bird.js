@@ -58,7 +58,7 @@ function Bird(dna){
     
     push();
     noStroke();
-    fill(255, 200); 
+    fill(0, 200); 
     translate(this.pos.x, this.pos.y);
     rotate(this.vel.heading());
     rectMode(CENTER);
