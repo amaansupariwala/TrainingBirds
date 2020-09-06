@@ -55,7 +55,7 @@ function Flock(){
       var parentA = random(this.matingPool).dna;
       var parentB = random(this.matingPool).dna;
       var childDNA = parentA.combineDNA(parentB);
-      //childDNA.mutation();
+      //childDNA.mutation(); //removes mutation
       newBirds[i] = new Bird(childDNA)
     }
     this.birds = newBirds;
